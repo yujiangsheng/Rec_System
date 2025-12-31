@@ -363,7 +363,3 @@ MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
 ## 许可证
 
 MIT License
-
-## 作者
-
-智能推荐系统开发团队
