@@ -12,11 +12,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="recsys",
     version="1.0.0",
-    author="RecSystem Developer",
+    author="Jiangsheng Yu",
+    author_email="your_email@example.com",
+    maintainer="Jiangsheng Yu",
+    maintainer_email="your_email@example.com",
     description="双智能体协作的推荐系统，支持智能体演化和持续学习",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/recsys",
+    url="https://github.com/yujiangsheng/Rec_System",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

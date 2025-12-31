@@ -1,5 +1,8 @@
 # 双智能体推荐系统 (Dual-Agent Recommendation System)
 
+**作者**: Jiangsheng Yu  
+**维护者**: Jiangsheng Yu
+
 ## 系统概述
 
 这是一个基于 **Qwen2.5-0.5B-Instruct** 的高级推荐系统，采用双智能体架构，具有演化能力和自我改进机制。
