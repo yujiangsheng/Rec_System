@@ -1,0 +1,21 @@
+# RecSystem 核心依赖列表
+# Python >= 3.8
+
+# 深度学习和推理
+torch>=2.1.0
+transformers>=4.30.0
+
+# 数据科学和图处理
+numpy>=1.20.0
+networkx>=3.0
+
+# 其他工具
+pydantic>=2.0
+python-dateutil>=2.8.0
+
+# 可选开发依赖
+# pytest>=7.0
+# pytest-cov>=4.0
+# black>=23.0
+# flake8>=6.0
+# mypy>=1.0

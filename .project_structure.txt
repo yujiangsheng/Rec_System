@@ -1,0 +1,45 @@
+优化后的项目架构：
+
+RecSystem/
+├── README.md                      # 项目主说明
+├── setup.py                       # 项目安装配置
+├── requirements.txt               # 依赖包列表
+├── .gitignore                     # Git忽略文件
+│
+├── src/                           # 核心源代码
+│   ├── __init__.py
+│   ├── config.py                  # 系统配置
+│   ├── interest_graph.py           # 兴趣图谱
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── agent_a.py             # 推荐智能体
+│   │   └── agent_b.py             # 评估智能体
+│   └── managers/
+│       ├── __init__.py
+│       └── evolution_manager.py    # 演化管理
+│
+├── examples/                      # 示例和演示
+│   ├── __init__.py
+│   ├── evolution_demo.py           # 演化演示
+│   └── quick_start.py              # 快速开始示例
+│
+├── tests/                         # 单元测试
+│   ├── __init__.py
+│   ├── test_interest_graph.py      # 图谱测试
+│   ├── test_agents.py              # 智能体测试
+│   └── test_evolution.py           # 演化测试
+│
+├── docs/                          # 项目文档
+│   ├── README.md                  # 文档主页
+│   ├── ARCHITECTURE.md            # 架构说明
+│   ├── API.md                     # API文档
+│   ├── TUTORIAL.md                # 教程
+│   └── ALGORITHM.md               # 算法说明
+│
+├── scripts/                       # 工具脚本
+│   ├── setup_env.sh               # 环境设置
+│   └── run_demo.sh                # 运行演示
+│
+└── notebooks/                     # Jupyter笔记本
+    ├── analysis.ipynb             # 分析笔记本
+    └── demo.ipynb                 # 演示笔记本
